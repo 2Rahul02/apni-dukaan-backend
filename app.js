@@ -14,7 +14,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 }
 
 app.use(cors({
-  origin: 'https://apni-dukaan.onrendor.com'
+  origin: '*'
 }));
 app.use(express.json());
 app.use(cookieParser());
